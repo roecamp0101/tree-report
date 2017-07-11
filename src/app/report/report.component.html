@@ -1,0 +1,16 @@
+<div class="jumbotron">
+        <h1>Reportcard.js</h1>
+        <p>Welcome to the open source Report Card widget! Right now this project is only compatible with <a href="">Treehouse</a> and <a href="">CodeSchool</a>. More coding schools may be added in the future if there is enough demand.</p>
+        <p>
+          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button" [ngStyle]="{'margin-right': '15px'}">Instructions</a>
+          <a class="btn btn-lg btn-success" href="../../components/#navbar" role="button">Download via GitHub »</a>
+        </p>
+        <p>100 Stars:</p>
+        <div class="star-container">
+            <ul class="list-inline stars-list-item">
+                <li *ngFor="let star of items | slice:0:80;">
+                <img [src]="star.picture.thumbnail" alt="" class="img-responsive img-circle" [ngStyle]="{'height': '32px', 'width': '32px'}">
+                </li>
+            </ul>
+        </div>
+</div>

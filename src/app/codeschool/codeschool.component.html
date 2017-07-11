@@ -1,0 +1,39 @@
+<div class="jumbotron text-center">
+        <h2>I have passed 135 lessons and scored 218,410 points at Code School!</h2>
+        <p [ngStyle]="{'font-size.px': 16}">Check out some of my last passed course content at the badges below:</p>
+        <ul class="list-inline">
+            <li *ngFor="let cs of codeinfo | slice:0:7;">
+            <img src="{{cs.thumbnailUrl}}" alt="{{cs.title}}" class="img-responsive img-circle" width="137" height="149" data-toggle="popover" data-placement="left" [attr.data-content]="d">
+            </li>
+        </ul>
+</div>
+
+
+<div class="row">
+    <div class="col-md-4 text-center">
+        <div class="well clearfix">
+            <div class="report">
+                <h2>I have passed 203 lessons and scored 17,345 points at Treehouse!</h2>
+                <p>Check out some of my last passed course content at the badges below:</p>
+        <ul class="list-inline">
+            <li *ngFor="let cs of codeinfo | slice:0:7;">
+            <img src="{{cs.thumbnailUrl}}" alt="{{cs.title}}" class="img-responsive img-circle" width="35" height="39">
+            </li>
+        </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-8 text-center">
+    <div class="well clearfix">
+        <div class="report2">
+            <h2>I have passed 203 lessons and scored 17,345 points at Treehouse!</h2>
+                <p>Check out some of my last passed course content at the badges below:</p>
+        <ul class="list-inline">
+            <li *ngFor="let cs of codeinfo | slice:0:7;">
+            <img src="{{cs.thumbnailUrl}}" alt="{{cs.title}}" class="img-responsive img-circle" width="87" height="95">
+            </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+</div>
