@@ -3,7 +3,7 @@
         <p [ngStyle]="{'font-size.px': 16}">Check out some of my last passed course content at the badges below:</p>
         <ul class="list-inline">
             <li *ngFor="let th of treeinfo | slice:0:7;">
-            <img src="{{th.icon_url}}" alt="{{th.name}}" class="img-responsive" width="137" height="149" data-toggle="popover" data-placement="left" [attr.data-content]="d">
+            <img src="{{th.icon_url}}" alt="{{th.name}}" class="img-responsive liftanimate" width="137" height="149" data-toggle="popover" data-placement="left" [attr.data-content]="d">
             </li>
         </ul>
 </div>
@@ -30,7 +30,7 @@
                 <p>Check out some of my last passed course content at the badges below:</p>
         <ul class="list-inline">
             <li *ngFor="let th of treeinfo | slice:0:7;">
-            <img src="{{th.icon_url}}" alt="{{th.name}}" class="img-responsive" width="87" height="95">
+            <img src="{{th.icon_url}}" alt="{{th.name}}" class="img-responsive liftanimate" width="87" height="95">
             </li>
         </ul>
         </div>

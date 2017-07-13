@@ -9,6 +9,7 @@ import { ReportComponent } from './report/report.component';
 import { TreehouseComponent } from './treehouse/treehouse.component';
 import { CodeschoolComponent } from './codeschool/codeschool.component';
 import { ReportCardService } from './report/report.service';
+import { LiftDirective } from './treehouse/lift.directive';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { ReportCardService } from './report/report.service';
     HeaderComponent,
     ReportComponent,
     TreehouseComponent,
-    CodeschoolComponent
+    CodeschoolComponent,
+    LiftDirective
   ],
   imports: [
     BrowserModule,

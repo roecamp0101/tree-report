@@ -4,3 +4,15 @@ body{
     padding-top: 70px;
     padding-bottom: 70px;
 }
+
+img.liftanimate{
+    position: relative;
+    -webkit-transition: top 0.5s ease-out;
+    -moz-transition: top 0.5s ease-out;
+    -o-transition: top 0.5s ease-out;
+    top: 0;
+}
+
+img.liftanimate:hover{
+    top: -50px;
+}
