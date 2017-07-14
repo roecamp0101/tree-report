@@ -14,6 +14,7 @@ import { InstructionsComponent } from './routing/instructions/instructions.compo
 import { TreeHouseRoutingModule } from './app-routing.module';
 import { HomeComponent } from './routing/home/home.component';
 import { AuthorComponent } from './routing/author/author.component';
+import { SearchPipe } from './routing/author/search.pipe';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { AuthorComponent } from './routing/author/author.component';
     LiftDirective,
     InstructionsComponent,
     HomeComponent,
-    AuthorComponent
+    AuthorComponent,
+    SearchPipe
   ],
   imports: [
     BrowserModule,
