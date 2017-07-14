@@ -1,28 +1,31 @@
-# TreeReport
+# Treehouse App (Angular4)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.3.
+Music Download App
 
-## Development server
+![alt tag](https://lh3.ggpht.com/5t8LLrBaqXtjxKiI8KnKD8hYp61NizSt4FBxHEO5_b03VxhXndrT4zZwU5Jp05oG-w=h900.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Prerequisites
 
-## Code scaffolding
+Node.js and npm are essential to Angular 2 development. 
+    
+**Verify that you are running at least node `v5.x.x` and npm `3.x.x`**
+by running `node -v` and `npm -v` in a terminal/console window.
+Older versions produce errors.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
 
-## Build
+Clone this repo into your local machine using the terminal (mac) or Gitbash (PC) > 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+  git clone https://github.com/roecamp0101/tree-report
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Install npm packages
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+ cd > tree-report > npm install > npm start
+  
+```
 
-## Further help
+The `ng serve` command can also compile the application.
+Both npm start or ng serve can be used as a compiler.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Shut it down manually with Ctrl-C.
