@@ -6,7 +6,7 @@ Music Download App
 
 ## Prerequisites
 
-Node.js and npm are essential to Angular 2 development. 
+Node.js and npm are essential to Angular 4 development. 
     
 **Verify that you are running at least node `v5.x.x` and npm `3.x.x`**
 by running `node -v` and `npm -v` in a terminal/console window.
