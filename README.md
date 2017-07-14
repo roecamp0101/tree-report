@@ -2,7 +2,7 @@
 
 Music Download App
 
-![alt tag](https://i.imgur.com/C7BhjJ1.png)
+![alt tag](https://i.imgur.com/Xtcn8Wg.gif)
 
 ## Prerequisites
 
