@@ -2,7 +2,7 @@
 
 Music Download App
 
-![alt tag](https://lh3.ggpht.com/5t8LLrBaqXtjxKiI8KnKD8hYp61NizSt4FBxHEO5_b03VxhXndrT4zZwU5Jp05oG-w=h900.png)
+![alt tag](https://i.imgur.com/C7BhjJ1.png)
 
 ## Prerequisites
 
