@@ -1,9 +1,9 @@
 <div class="jumbotron">
         <h1>Reportcard.js</h1>
-        <p>Welcome to the open source Report Card widget! Right now this project is only compatible with <a href="">Treehouse</a> and <a href="">CodeSchool</a>. More coding schools may be added in the future if there is enough demand.</p>
+        <p>Welcome to the open source Report Card widget! Right now this project is only compatible with <a [href]="'https://teamtreehouse.com/'" target="_blank">Treehouse</a> and <a [href]="'https://www.codeschool.com/'" target="_blank">CodeSchool</a>. More coding schools may be added in the future if there is enough demand.</p>
         <p>
-          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button" [ngStyle]="{'margin-right': '15px'}">Instructions</a>
-          <a class="btn btn-lg btn-success" href="../../components/#navbar" role="button">Download via GitHub »</a>
+          <a class="btn btn-lg btn-primary" routerLink="/instructions" role="button" [ngStyle]="{'margin-right': '15px'}">Instructions</a>
+          <a class="btn btn-lg btn-success" [href]="'https://github.com/roecamp0101/tree-report'" target="_blank" role="button">Download via GitHub »</a>
         </p>
         <p>100 Stars:</p>
         <div class="star-container">

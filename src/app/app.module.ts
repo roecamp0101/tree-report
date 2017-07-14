@@ -10,7 +10,10 @@ import { TreehouseComponent } from './treehouse/treehouse.component';
 import { CodeschoolComponent } from './codeschool/codeschool.component';
 import { ReportCardService } from './report/report.service';
 import { LiftDirective } from './treehouse/lift.directive';
-
+import { InstructionsComponent } from './routing/instructions/instructions.component';
+import { TreeHouseRoutingModule } from './app-routing.module';
+import { HomeComponent } from './routing/home/home.component';
+import { AuthorComponent } from './routing/author/author.component';
 
 @NgModule({
   declarations: [
@@ -19,12 +22,16 @@ import { LiftDirective } from './treehouse/lift.directive';
     ReportComponent,
     TreehouseComponent,
     CodeschoolComponent,
-    LiftDirective
+    LiftDirective,
+    InstructionsComponent,
+    HomeComponent,
+    AuthorComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
+    TreeHouseRoutingModule
   ],
   providers: [ReportCardService],
   bootstrap: [AppComponent]
