@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+//import * as $ from 'jquery';
 
 @Component({
   selector: 'tr-author',
@@ -17,7 +18,12 @@ export class AuthorComponent implements OnInit {
         { "name":"Node", "types":[ "Node 1.5", " Node 3.0" ] }
         
     ]
- 
+
+//jquery method    
+/*show(){
+  $('h3').toggle();
+}
+*/
 
   constructor() { }
 
